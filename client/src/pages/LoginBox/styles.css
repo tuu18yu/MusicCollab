@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.login-container {
+    background-color: #1c1c1e;
+     border: 0.5px solid #141414;
+     color: aliceblue;
+     border-radius: 12px;
+     height: 80%;
+     width: 80%;
+     margin: auto;
+     box-shadow: 0px 2px 4px 3px #141414;
+     margin-bottom: 5px;
+     overflow: hidden;
+     margin-top: 10%;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+}
+
+.logIn-greetings {
+    text-align: center;
+}
+
+.login-form-container {
+    width: fit-content;
+    margin: 0;
+}
+
+.login_form {
+    width: 190px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

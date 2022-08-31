@@ -1,0 +1,68 @@
+.white-line {
+    width: 100%;
+    margin: 90px;
+    height: 3px;
+    background-color: white;
+}
+
+.music-row {
+    width: 100%;
+}
+
+.work{
+    width: 100%;
+    height: 40%;
+}
+
+.grid {
+    display: grid;
+}
+  
+.grid1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.vertical-white-Line {
+    height: 187px;
+    width: 5px;
+    background-color: white;
+    position: relative;
+    top: 90px;
+    left: 90px;
+}
+
+.left-300 {
+    left: 300px;
+}
+
+.margin-bottom-300 {
+    margin-bottom: 300px;
+}
+
+.height-620 {
+    height: 620px;
+}
+
+.sheet-section-title {
+    position: relative;
+    top: 200px;
+    left: 100px;
+    color: rgb(215 215 215);
+    width: fit-content;
+    height: fit-content;
+}
+
+.sheet-section-num {
+    position: relative;
+    top: 70px;
+    left: 185px;
+    color: #7713cf;
+    font-size: xxx-large;
+    width: fit-content;
+    height: fit-content;
+}
+
+.left-110 {
+    left: 110px;
+}

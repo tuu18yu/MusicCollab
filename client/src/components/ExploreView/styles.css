@@ -1,0 +1,39 @@
+.large-dark-box-explore {
+    background-color: #1c1c1e1c;
+    color: aliceblue;
+    border-radius: 12px;
+    height: 345px;
+    width: 90%;
+    margin: 35px;
+    margin-bottom: 50px;
+    overflow: unset;
+}
+
+#large-img {
+    width: 200px;
+    height: 200px;
+}
+
+.search-page .large-dark-box-explore {
+    height: fit-content;
+}
+
+
+.search-page .profile-works ul.small-works-list {
+    flex-wrap: wrap;
+}
+
+.hashtag {
+    color: #7d929d;
+    margin-bottom: 0;
+    padding: 3px 2px;
+}
+
+.personalized-feed .large-dark-box-explore {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.bottom-page .large-dark-box-explore {
+    margin-top: 20px
+}

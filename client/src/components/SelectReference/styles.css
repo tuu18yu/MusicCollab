@@ -1,0 +1,29 @@
+.add-ref-box .searchWrapper {
+    width: 100%;
+    overflow: auto;
+}
+
+.explore-page .searchWrapper {
+    overflow: auto;
+    margin: auto;
+    height: 40px;
+}
+
+.explore-page .optionListContainer {
+    margin-left: 5%;
+    max-height: 120px;
+    overflow: auto;
+}
+
+
+.add-ref-box .optionListContainer {
+    width: 100%;
+}
+
+.add-ref-box .multiSelectContainer {
+    width: 35%;
+}
+
+.explore-page .multiSelectContainer input {
+    width: 160px;
+}

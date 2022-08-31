@@ -1,0 +1,35 @@
+.searchWrapper {
+    background-color: rgb(183 181 181);
+    width: 90%;
+    font-size: medium;
+    border-radius: 10px;
+    border: 0.1px solid silver;
+}
+
+.searchWrapper:focus-within {
+    background-color: white;
+    border-color: #7713cf;
+  }
+
+.multiSelectContainer {
+    margin-top: 5px;
+}
+
+.chip {
+    background: #6012a5;;
+}
+
+.optionListContainer {
+    width: 90%;
+    color: black;
+}
+
+.highlightOption {
+    background: #6012a5;
+    color: #fff;
+}
+
+.disable_ms {
+    opacity: 1;
+    pointer-events: none;
+}

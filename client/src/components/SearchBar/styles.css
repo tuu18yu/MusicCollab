@@ -1,0 +1,22 @@
+.searchBar button:hover {
+    color: white;
+}
+
+.searchBar input[type=text] {
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 400px;
+}
+
+.searchBar {
+    margin: auto;
+    width: 40%;
+position: fixed;
+top: 65px;
+margin-left: 100px;
+
+}

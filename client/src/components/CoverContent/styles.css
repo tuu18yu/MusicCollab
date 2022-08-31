@@ -1,0 +1,126 @@
+.comment-container{
+    background-color: #1c1c1e;
+    border: 0.5px solid #141414;
+    color: aliceblue;
+    border-radius: 12px;
+    height: 90%;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 2px 4px 3px #141414;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#description-box {
+    background-color: #1c1c1e;
+    border: 0.5px solid #141414;
+    color: aliceblue;
+    border-radius: 12px;
+    width: 80%;
+    height: 30%;
+    margin: 20px;
+    display: block;
+    position: relative;
+    box-shadow: 0px 2px 4px 3px #141414;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+.comment-box {
+    background-color: #323236;
+    border: 0.5px solid #383838;
+    color: #dddddd;
+    border-radius: 12px;
+    height: 80px;
+    width: 90%;
+    box-shadow: 0px 1px 4px 1px #383838;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    
+}
+
+.curr-comment-box {
+    background-color: #504e4e;
+    border: 0.5px solid #504f4f;
+    color: #1c1c1e;
+    border-radius: 12px;
+    height: 80px;
+    width: 90%;
+    box-shadow: 0px 1px 4px 1px #504f4f;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.comment-username-container{
+    position: sticky;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+.comment-content-container{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+#comment-username-btn{
+    background-color: rgba(189, 42, 169, 0.863);
+    border-color: rgba(177, 43, 159, 0.863);
+
+}
+
+#comment-username-btn:hover {
+    background-color: rgba(128, 30, 114, 0.863);
+}
+
+
+#comments {
+    height: 70%;
+}
+
+#input-comment-content {
+
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 8px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #dbdbdb;
+    color: black;
+}
+
+#comment-content{
+
+    width: 90%;
+    height: 100%;
+
+}
+
+#comment-submit-btn{
+    margin-top: 12px;
+    margin-left: 474px;
+    align-self: flex-end;
+    margin-right: 40px;
+}
+
+#comment-delete-btn {
+    position: relative;
+    margin-left: 420px;
+}
+
+#comments {
+    overflow: auto;
+}

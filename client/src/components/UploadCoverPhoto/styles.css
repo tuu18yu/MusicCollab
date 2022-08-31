@@ -1,0 +1,45 @@
+#upload-container {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#cover-photo-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 230px;
+    margin-top: 125px;
+}
+
+#cover-photo-upload {
+    width: 190px;
+    height: 190px;
+    border: 2px solid rgb(39 8 98);
+    z-index: 0;
+    border-radius: 6px;
+}
+
+#change-cover-photo-label {
+    color: aliceblue;
+    cursor: pointer;
+    width: 190px;
+    height: 50px;
+    z-index: 400;
+    background-color: #0000009e;
+    text-align: center;
+    margin-top: -41px;
+}
+
+#photo{
+    display: none;
+}
+
+#upload-btn {
+    font-size: 17px;
+}

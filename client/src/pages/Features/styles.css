@@ -1,0 +1,25 @@
+.divider {
+    height: 200px;
+}
+
+.music-sheet-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(215 215 215);
+    width: 100vw;
+}
+
+.purple-link {
+    color: #7713cf;
+    text-decoration: none;
+}
+
+.purple-link:hover {
+    color: #5f10a3;
+    text-decoration: none;
+}
+
+.features-page {
+    flex-direction: column;
+    width: 85vw;
+}

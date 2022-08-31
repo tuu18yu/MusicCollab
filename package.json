@@ -1,0 +1,32 @@
+{
+  "name": "music-collab",
+  "version": "1.0.0",
+  "description": "## Important Notes * Files written by Bessey are marked at the top with the comment \"Put together by Bessey\" * The only component used from his work in the final submission is the navigation bar",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.27.1",
+    "connect-mongo": "^4.6.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.14",
+    "util": "^0.12.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csc309-fall-2021/team63.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csc309-fall-2021/team63/issues"
+  },
+  "homepage": "https://github.com/csc309-fall-2021/team63#readme"
+}

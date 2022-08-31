@@ -1,0 +1,91 @@
+#profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+}
+
+#middle-box{
+    height: 30%;
+}
+
+#bio-container{
+    width: 100%;
+    height: 100%;
+}
+
+#download-box {
+    height: 30%;
+}
+
+#top-profile-content{
+    height:40%;
+    display:flex;
+    margin-bottom: 37px;
+    width: 80%;
+    align-items: flex-start;
+}
+
+.interests-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 25px;
+    margin-top: 0px;
+}
+
+
+#interests-list li {
+    width:fit-content;
+}
+
+.interest {
+    /* margin: 0px 10px;
+    font-size: 16px;
+    cursor: default;
+    background-color: #6412ad;
+    border-color: #53138d; */
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: default;
+    border-color: #53138d;
+    padding: 5px 9px;
+    border-radius: 8px;
+    background-color: #7f1691;
+    font-weight: 500;
+    color: #e5ddf3;
+}
+
+/* .interests-list li p:hover{
+    background-color: #6412ad;
+} */
+
+.large-dark-box-activty {
+    background-color: #1c1c1e;
+    border: 0.5px solid #141414;
+    color: aliceblue;
+    border-radius: 12px;
+    height: 45%;
+    width: 80%;
+    margin: 35px;
+    box-shadow: 0px 2px 4px 3px #141414;
+    margin-bottom: 5px;
+    overflow: auto;
+}
+
+.bio-btns {
+    display: flex;
+    align-items: center;
+}
+
+.margin-left {
+    margin-left: auto;
+}
+
+.height-200{
+    height: 200px;
+}
+
+.height-300{
+    height: 300px;
+}

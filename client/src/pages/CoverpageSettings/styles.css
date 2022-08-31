@@ -1,0 +1,94 @@
+#upload-page{
+    display: flex;
+    width: 80vw;
+   }
+   
+   #work-details {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 70%;
+       color: white;
+       box-sizing: border-box;
+   }
+   
+   #header-container{
+       display: flex;
+       width: 85%;
+   }
+   
+   #details-container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 85%;
+       border-top: 0.1px solid silver;
+       margin-top: 20px;
+       padding-top: 20px;
+   }
+   
+   #audio-file-label {
+       border: 0.1px dashed rgb(45 0 128);
+       line-height: 40px;
+       text-align: center;
+       cursor: pointer;
+       color: black;
+   }
+   
+   #audio-file-label:hover {
+       background-color: white;
+       border: 0.1px solid;
+       border-color: #7713cf;
+       outline: none;
+   
+   }
+   
+   #audio-file {
+       display: none;
+   }
+   
+   
+   .add-ref-box {
+       width: 100%;
+       display: flex;
+   }
+   
+   
+   .ref-description {
+       width: 45%;
+       height: 100px;
+       margin: 3px 10px;
+       font-size: small;
+     }
+   
+   .add-ref-btn {
+       height: 10px;
+       background-color: rgba(36, 3, 221, 0);
+       border: none;
+       color: #9d2cff;
+       font-size: 25px;
+       font-weight: 900;
+       padding: 0px 2px;
+       line-height: 16px;
+   }
+   
+   .add-ref-btn:hover {
+       color: #7713cf;
+   }
+   
+   .remove-ref-btn {
+       height: 10px;
+       background-color: rgba(36, 3, 221, 0);
+       border: none;
+       font-size: 35px;
+       font-weight: 900;
+       text-align: center;
+       padding: 0px 2px;
+       line-height: 10px;
+   }
+   
+   #edit-submit {
+    margin-top: 15px;
+    margin-left: 300px;
+   }
+   

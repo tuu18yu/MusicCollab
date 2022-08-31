@@ -1,0 +1,69 @@
+.requests-sidebar {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+}
+
+.request-section {
+    padding: 15px;
+    border: 1px silver solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.request-title {
+    font-weight: 700;
+    font-size: 21px;
+    text-align: center;
+}
+
+.color-purple {
+    color: purple
+}
+
+.color-blue {
+    color: blue
+}
+
+.sidebar-title {
+    text-align: center;
+}
+
+.requests-sidebar-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.request-header {
+    height: 100%;
+    width: 30vw;
+    background-color: rgba(0,0,0,.904);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.requests-btns-container {
+    margin: auto;
+}
+
+.right-margin {
+    margin-right: 20px;
+}
+
+.background-red {
+    background: #9d1515;
+}
+.background-green {
+    background: green;
+}

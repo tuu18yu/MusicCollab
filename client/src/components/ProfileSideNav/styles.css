@@ -1,0 +1,34 @@
+#side-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+}
+
+.side-nav-link {
+    font-size: 25px;
+    color: #5F5F5F;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.side-nav-link:hover {
+    color: #929292;
+}
+
+.active-page {
+    color: #b4b4b4;
+}
+
+.active-page span {
+    color: #8215e0;
+}
+
+.internal-profile-stats-num {
+    color:#6012a5;
+}
+
+.internal-profile-stats-num:hover {
+    color:#7713cf;
+}
+
