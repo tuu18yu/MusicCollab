@@ -46,6 +46,8 @@ import PersonalizedFeed from './pages/PersonalizedFeed';
 import SentRequests from './pages/SentRequests';
 import ReceivedRequests from './pages/ReceivedRequests';
 
+import DefaultNavigationBar from './components/NavigationBar/default_NavBar';
+
 
 function App() {
 
@@ -224,14 +226,15 @@ function App() {
   return (
     //this should be home page
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/MusicCollab'>
+        {!state.username && <DefaultNavigationBar changeState={changeState} currentUser={state}/>}
         {state.username && !state.isAdmin && <NavigationBar changeState={changeState} currentUser={state}/>}
         {state.username && state.isAdmin && <AdminNavigationBar changeState={changeState} />}
         <Switch> 
           <Route exact path='/SignUp' render={() => (<SignUp/>)}/>
 
           <Route
-              exact path={["/", "/LogIn", '/AdminProfile'] /* any of these URLs are accepted. */ }
+              exact path={["/LogIn", '/AdminProfile'] /* any of these URLs are accepted. */ }
               render={ () => (
                 !state.username ? <LogInPage changeState={changeState} /> : !state.isAdmin ? <ExplorePage currentUser={state}/> : <AdminProfile currentUser={state.id}/>
               )}
@@ -253,7 +256,7 @@ function App() {
           <Route exact path='/Followers' render={() => (<Follows currentUser={state}/>)}/>
           <Route exact path='/Followings' render={() => (<Follows currentUser={state}/>)}/>
           <Route exact path='/Features' render={() => (<Features/>)}/>
-          <Route exact path='/Explore' render={() => (<ExplorePage currentUser={state}/>)}/>
+          <Route exact path={['/Explore', '/'] /* any of these URLs are accepted. */ } render={() => (<ExplorePage currentUser={state}/>)}/>
           <Route exact path='/Home' render={() => (<PersonalizedFeed works={works}/>)}/>
 
 
