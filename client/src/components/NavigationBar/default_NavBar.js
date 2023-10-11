@@ -14,7 +14,7 @@ function DefaultNavigationBar(props) {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            TiedNote
+            Music Collab
             <i className="fas fa-code"></i>
           </NavLink>
 
